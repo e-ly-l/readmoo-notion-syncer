@@ -1,0 +1,1 @@
+export { NotionAdapter } from "./notion";

@@ -1,0 +1,32 @@
+{
+  "name": "readmoo-annotations-to-notion",
+  "version": "1.0.0",
+  "description": "tool for syncing readmoo highlights and notes to notion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "readmoo",
+    "notion",
+    "scraper"
+  ],
+  "author": {
+    "name": "ERIK LIU",
+    "email": "erikliu0801@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.14",
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
+    "puppeteer": "^22.3.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.20",
+    "@types/puppeteer": "^7.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
